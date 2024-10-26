@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: darkblue;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+h1
+h2 {
+    color: #35424a;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+input{
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+select {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background: darkblue;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#request-form button:hover, #tracking button:hover {
+    background-color: #45a049;
+}
+#request-form {
+    text-align: center; /* center the text and form elements */
+}
+
+#request-form h2 {
+    margin-bottom: 10px; /* add some space between the header and form */
+}
+
+#request-form form {
+    display: inline-block; /* make the form an inline block element */
+    text-align: left; /* left-align the form elements */
+}
+#tracking {
+    text-align: center; /* center the text and form elements */
+}
+
+#tracking h2 {
+    margin-bottom: 10px; /* add some space between the header and form */
+}
+
+#tracking input, #tracking button {
+    display: inline-block; /* make the input and button inline block elements */
+    margin: 5px; /* add some space between the input and button */
+}
+#tracking {
+    margin-top: 20px; /* add some space between the two sections */
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+main {
+    background: #ffffff; /* add a white background to the main section */
+    padding: 20px; /* add some padding to the main section */
+    border-radius: 5px; /* add a border radius to the main section */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* add a box shadow to the main section */
+}
+
+#request-form, #tracking {
+    background: none; /* remove the white background from the individual sections */
+    padding: 0; /* remove the padding from the individual sections */
+    border-radius: 0; /* remove the border radius from the individual sections */
+    box-shadow: none; /* remove the box shadow from the individual sections */
+}
+#tracking input {
+    width: 60%; /* adjust the width of the input field */
+    padding: 5px;
+    margin-bottom: 10px; /* add some space between the input field and button */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#tracking button {
+    display: block; /* make the button a block element */
+    width: 60%; /* adjust the width of the button */
+    padding: 10px;
+    margin: 0 auto; /* center the button horizontally */
+    background: darkblue;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+#tracking button:hover {
+    background: #45a049;
+}
+#request-form {
+    background: #ffffff;
+    padding: 20px;
+    margin: 20px; /* add a margin to increase the space around the section */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+form {
+    max-width: 500px; /* increase the max-width to make the background bigger */
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 40px; /* increase the padding to make the background bigger */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
